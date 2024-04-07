@@ -9,8 +9,13 @@ const { CustomerRouter } = require("./customer/customer.router");
 const { ROUTER_BASE_ORDER } = require("./order/order.config");
 const { OrderRouter } = require("./order/order.router");
 const { Logging } = require("./libs/lib.logging");
+const cors = require("cors")
 
 const app = express();
+
+app.use(cors({
+  origin: '*'
+}))
 
 MongoDBConnection();
 

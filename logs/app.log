@@ -47,3 +47,6 @@
 2024-04-05T10:26:08.092Z info: Berhasil terhubung ke database mongoDB
 2024-04-05T10:26:10.463Z info: Received a POST request for /customer
 2024-04-05T10:26:10.466Z error: Invalid token
+2024-04-05T12:33:57.166Z error: Gagal terkoneksi database mongoDB
+2024-04-05T12:33:57.170Z error: The `uri` parameter to `openUri()` must be a string, got "undefined". Make sure the first parameter to `mongoose.connect()` or `mongoose.createConnection()` is a string.
+2024-04-05T12:36:46.633Z info: Berhasil terhubung ke database mongoDB
